@@ -626,7 +626,8 @@ section{
 	text-decoration: none;	
 }
 .row1{
-	padding:10 05px;
+	padding:0 0px;
+	margin: 40px;
 	}
 .row1 h5 a{
 	font-size: 13px;
