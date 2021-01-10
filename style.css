@@ -397,6 +397,13 @@ main img:hover{
 	color: #d2d3d7;
 	text-decoration: none;
 }
+.row1 h5 a{
+	font-size: 11.5pt;
+	text-decoration: none;
+	color: #d2d3d7;
+	font-family: Myriad Pro;
+
+}
 
 
 /*-------------top_footer end---------------*/
