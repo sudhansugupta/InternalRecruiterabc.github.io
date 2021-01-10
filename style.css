@@ -529,10 +529,10 @@ section{
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		margin-left:9%;
+		margin-left:10%;
 		width: 280px;
 		margin-top: 100px;
-		margin-right: 5% auto;
+		margin-right: 10% auto;
 	}
 	.boxle h1{
 		font-size: 25px;
@@ -541,9 +541,9 @@ section{
 		justify-content: center;
 		align-items: center;
 		text-align: center;
-		margin-left:9%;
+		margin-left:10%;
 		width: 280px;
-		margin-right: 5% auto;
+		margin-right: 10% auto;
 	
 	}
 	.round img{
