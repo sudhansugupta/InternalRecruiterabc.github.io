@@ -405,8 +405,12 @@ main img:hover{
 	font-family: Myriad Pro;
 
 }
-
-
+#break{
+	display: flex;
+}
+#break1{
+	display: flex;
+}
 /*-------------top_footer end---------------*/
 /*-------------footer start---------------*/
 .footer{
@@ -605,8 +609,15 @@ section{
 	font-size: 15px;
 }
 .top_footer{
-	display: block;
+	display: inline-block;
 	height: auto;
+	width: 100%;
+}
+#break{
+	display: flex;
+}
+#break1{
+	display: flex;
 }
 .row1 h3 a{
 	font-size: 11px;
@@ -615,9 +626,7 @@ section{
 	text-decoration: none;	
 }
 .row1{
-	padding:3 5px;
-	margin-left: 5px;
-	margin-right: 5px; 
+	padding:10 05px;
 	}
 .row1 h5 a{
 	font-size: 13px;
@@ -639,4 +648,3 @@ main{
 #style a{
  	size: 15px;
 }
-
