@@ -461,11 +461,15 @@ main img:hover{
 	position:relative;
 
 }
+#check:checked ~ ul{
+	left: 0;
+}
 section{
-	background: url(img/photo4.jpg), no-repeat;
+	background: url(img/photo4.jpg),  no-repeat;
 	height: calc(100vh - 40px);
 	background-size: cover;
 	margin-top:-210%;
+	margin-bottom:20px;
 	}
 .header2 ul li{
 	display:block;
@@ -479,9 +483,7 @@ section{
 	padding: 5px;
 	font-size: 25px;
 }
-#check:checked ~ ul{
-	left: 0;
-}
+
 .header2 ul li:hover{
 	color: #302f2f;
 	background-color: transparent;
@@ -549,6 +551,7 @@ section{
 		margin-left:10%;
 		width: 280px;
 		margin-right: 10% auto;
+		border-radius: 15px;
 	}
 	.boxle h1{
 		font-size: 25px;
@@ -615,6 +618,7 @@ section{
 }
 #break{
 	display: flex;
+	margin-top: 10px;
 }
 #break1{
 	display: flex;
@@ -627,7 +631,7 @@ section{
 }
 .row1{
 	padding:0 0px;
-	margin: 40px;
+	margin:0 40px;
 	}
 .row1 h5 a{
 	font-size: 13px;
