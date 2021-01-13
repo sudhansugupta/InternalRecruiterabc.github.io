@@ -734,6 +734,7 @@ main{
 
 .slider{
 	height: 250px;
+	animation: slider 10s infinite linear;
 }
 
 .slider img{
