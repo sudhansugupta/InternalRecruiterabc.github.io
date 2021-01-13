@@ -68,7 +68,7 @@ figure{
 	display: flex;
 	width: 400%;
 	height: 400px;
-	animation: slider 20s infinite linear;
+	animation: slider 15s infinite linear;
 }
 .photo{
 	width: 100%;
