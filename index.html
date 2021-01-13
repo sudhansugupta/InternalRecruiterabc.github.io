@@ -5,6 +5,7 @@
 	<title>your company name</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 <body>
 	<header>
@@ -31,10 +32,10 @@
 <!-------photo slider start--------->
 <figure>
 <div class="slider">
-	<div class="photo"><img src="img/photo1.jpg"></div>
-	<div class="photo"><img src="img/photo2.jpg"></div>
-	<div class="photo"><img src="img/photo3.jpg"></div>
-	<div class="photo"><img src="img/photo4.jpg"></div>
+	<div class="photo"><img src="img/img1.jpg"></div>
+	<div class="photo"><img src="img/img2.jpg"></div>
+	<div class="photo"><img src="img/img3.jpg"></div>
+	<div class="photo"><img src="img/img4.jpg"></div>
 </div>
 </figure>
 <!-------photo slider start--------->
@@ -51,24 +52,45 @@
 </div>
 
 <div class="main_container">
-		<div class="box box1"><img src="img/photo1.jpg">
+		<div class="box box1"><img src="img/team1.jpg">
 		<h3>Hugo Silva</h3> <br><br><h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna</h4> </div>
-		<div class="box box2"><img src="img/photo2.jpg">
+		<div class="box box2"><img src="img/team2.jpg">
 		<h3>Imanol Arias</h3> <br><br><h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna </h4></div>
-		<div class="box box3"><img src="img/photo3.jpg">
+		<div class="box box3"><img src="img/team3.jpg">
 		<h3>Javier Bardem</h3> <br><br><h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna </h4></div>
 		
 	</div>
 <!-------OUR TEAM LEADERS end--------->
 <!------bar information start---------->
-<div class="bar-information">
-	<nav>
-	<div class="child">2500<br> <div class="line">HAPPY CLIENTS</div></div>
-	<div class="child">300<br> <div class="line">FULL NOTEBOOKS </div></div>
-	<div class="child">120<br> <div class="line">TEAMMATES </div></div>
-	<div class="child">30<br> <div class="line">STORES</div></div>
-	</nav>
-</div>
+<section class="counters">
+		<div>
+			<div class="container">
+				<div class="counter" data-target="2500">0</div>
+				<h3>HAPPY CLIENTS</h3>
+			</div>
+		</div>
+
+		<div>
+			<div class="container">
+				<div class="counter" data-target="300">0</div>
+				<h3>FULL NOTEBOOKS</h3>
+			</div>
+		</div>
+
+		<div>
+			<div class="container">
+				<div class="counter" data-target="120">0</div>
+				<h3>TEAMMATES</h3>
+			</div>
+		</div>
+
+		<div>
+			<div class="container">
+				<div class="counter" data-target="30">0</div>
+				<h3>STORES</h3>
+			</div>
+		</div>
+	</section>
 <!-------bar information end--------->
 <!-------contact start---------->
 <div class="contact-contaner">
@@ -118,24 +140,24 @@ accusantium doloremque laudantium, totam rem aperiam</p><br><br><br></div>
 <!--------aboutus start----------->
 <div class="about-contaner">
 	<div class="boxr">
-		<img src="img/photo4.jpg">
+		<img src="img/about1.jpg" height="300px" width="500px">
 	</div>
 	<div class="boxle">
 		<h1> ABOUT US</h1>
 		<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
 accusantium doloremque laudantium, totam rem aperiam</p>
 	<div class="round">
-		<img src="img/photo1.jpg"><br>
+		<img src="img/about2.jpg"><br>
 		<button>FRIENDLY TEAM</button>
 
 	</div>
 	<div class="round">
-		<img src="img/photo2.jpg">
+		<img src="img/about3.jpg">
 		<br>
 		<button>INVOLVED</button>
 	</div>
 	<div class="round">
-		<img src="img/photo3.jpg">
+		<img src="img/about4.jpg">
 		<br>
 		<button>24/7 ASSISTANCE</button>
 	</div>
@@ -150,10 +172,10 @@ dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe
 citation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 <main >
-	<div class="img"><img src="img/photo1.jpg"height="200" width="300"> </div>
-	<div class="img"><img src="img/photo2.jpg"height="200" width="300"> </div>
-	<div class="img"><img src="img/photo3.jpg"height="200" width="300"> </div>
-	<div class="img"><img src="img/photo4.jpg"height="200" width="300"> </div>
+	<div class="img"><img src="img/gallery1.jpg"height="200" width="300"> </div>
+	<div class="img"><img src="img/gallery2.jpg"height="200" width="300"> </div>
+	<div class="img"><img src="img/gallery3.jpg"height="200" width="300"> </div>
+	<div class="img"><img src="img/gallery4.jpg"height="200" width="300"> </div>
 </main>
 <!--------photogallery end----------->
 <!--------top_footer starts----------->
@@ -186,19 +208,29 @@ citation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 	</div>
 </div>
 	<div class="row1">
-		<h3><a href="#">3-6000-0000
+		<h3><div id="changesize">
+			<i class='fas fa-phone' style='font-size:11.52pt; color:#985336;'></i>
+			<a href="#">3-6000-0000
 -6000-000-0000</a><br>
-		<h3><a href="#">67700 Dagenham St
-England, GB</a>
+		<i class='fas fa-map-marker-alt' style='font-size:11.52pt; color:#985336;'></i><a href="#" >67700 Dagenham St
+England, GB</a></div></h3>
 	</div>
 </div>
 <!--------top_footer end----------->
 <!--------footer start----------->
 <div class="footer">
-	<div class="part1">
-		Copyright © 2019 . Your companyname  All rights reserved
-	</div>
+	
+	<div class="copy"> Copyright © 2019 . Your companyname  All rights reserved</div>
+	
+<div class="iconesss">
+<a href="#"><i class='fab fa-google' style='font-size:15px; color:white;'></i></a>
+<a href="#"><i class='fab fa-twitter' style='font-size:15px; color:white;'></i></a>
+<a href="#"><i class='fab fa-instagram' style='font-size:15px; color:white;'></i></a>
+<a href="#"><i class='fab fa-facebook-f' style='font-size:15px; color:white;'></i></a>
+</div>
+</div>
 </div>
 <!--------footer end----------->
+	<script src="script.js" ></script>
 </body>
 </html>
