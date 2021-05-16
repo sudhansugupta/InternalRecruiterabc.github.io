@@ -1,239 +1,352 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>your company name</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
 
-</head>
-<body>
-	<header>
-		<div class="logo"> <img src="img/logo.png"> </div>
-	</header>
-<!-----navbar start------>	
-<input type="checkbox" id="check">
-	<label for="check" class="checkbtn">
-		<i class="fas fa-bars"></i>
-	</label>
-<div class="header2">
-	
-	<ul>
-		<li class="active"><a href="#">HOME</a></li>
-		<li><a href="#">ABOUT</a></li>
-		<li><a href="#">SERVICES</a></li>
-		<li><a href="#">TESTIMONIALS</a></li>
-		<li><a href="#">PORTFOLIO</a></li>
-		<li><a href="#">CONTACTS</a></li>
-	</ul>
-</div>
-<!------navbar end------->
-<!-------photo slider start--------->
-<figure>
-<div class="slider">
-	<div class="photo"><img src="img/img1.jpg"></div>
-	<div class="photo"><img src="img/img2.jpg"></div>
-	<div class="photo"><img src="img/img3.jpg"></div>
-	<div class="photo"><img src="img/img4.jpg"></div>
-</div>
-</figure>
-<!-------photo slider start--------->
-<!-------headline start--------->
-<div class="headline">
-	<div class="fline">WELCOME TO</div>
-	<div class="fline brline">YOURCOMPANYNAME</div>
-</div>
-<!-------headline end--------->
-<!-------OUR TEAM LEADERS start--------->
-<div class="leader">
-	<h1><u>OUR TEAM LEADERS</u></h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi<br>dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer<br>citation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor<br> in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br> sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id </p>
-</div>
+  </head>
+  <title>resturent</title>
+  <body>
+    <!-- nav ber and logo start -->
+    <nav class="navbar navbar-expand-lg navbar-light colorset_nav">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"><img src="img/logo.png" class=" img-fluid logoset1 " style= "max-width: 100%; height: auto;" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto text-center mb-lg-0">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#"> ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MENUS</a>
+            </li>
+          
+            <a class="navbar-brand px-lg-5" href="#"><img src="img/logo.png" class=" img-fluid logoset" style= "max-width: 100%; height: auto;" alt="..."> </a>
 
-<div class="main_container">
-		<div class="box box1"><img src="img/team1.jpg">
-		<h3>Hugo Silva</h3> <br><br><h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna</h4> </div>
-		<div class="box box2"><img src="img/team2.jpg">
-		<h3>Imanol Arias</h3> <br><br><h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna </h4></div>
-		<div class="box box3"><img src="img/team3.jpg">
-		<h3>Javier Bardem</h3> <br><br><h4>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna </h4></div>
-		
-	</div>
-<!-------OUR TEAM LEADERS end--------->
-<!------bar information start---------->
-<section class="counters">
-		<div>
-			<div class="container">
-				<div class="counter" data-target="2500">0</div>
-				<h3>HAPPY CLIENTS</h3>
-			</div>
-		</div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
 
-		<div>
-			<div class="container">
-				<div class="counter" data-target="300">0</div>
-				<h3>FULL NOTEBOOKS</h3>
-			</div>
-		</div>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                OFFERS
+              </a>
+              <ul class="dropdown-menu colorset_nav" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+           </ul>
+         </div>
+      </div>
+    </nav>
+  
+    
+  	<!-- nav ber and logo end -->
+    <!-- header part start -->
+    <header>
+        <div class="head_back">
+          <img src="img/header_back.png " class="img-fluid  ">
+        </div>
 
-		<div>
-			<div class="container">
-				<div class="counter" data-target="120">0</div>
-				<h3>TEAMMATES</h3>
-			</div>
-		</div>
+          </header>
 
-		<div>
-			<div class="container">
-				<div class="counter" data-target="30">0</div>
-				<h3>STORES</h3>
-			</div>
-		</div>
-	</section>
-<!-------bar information end--------->
-<!-------contact start---------->
-<div class="contact-contaner">
-<div class="contact-headline">
-	<br><br><br><br><h1><u>CONTACT US</u></h1> <br> <br>
-	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem<br> 
-accusantium doloremque laudantium, totam rem aperiam</p><br><br><br></div>
-<div class="contact-form">
-<form>
-	<div class="inputbox">
-		<input type="text" name="" required="required">
-		<span>Name</span>
-	</div>
+          
+          <div class="container-fluid bg-danger ">
+          <div class="row head_adjust d-flex py-5">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 d-block text-center ">
+              <img src="img/head_part.png" class="img-fluid">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-6 d-block  text-break text-white ">
+             <h1 class="text-color-change py-2">Contact Us For Best Breakfasr</h1>
+             <p class="text-color-change1 .fs-6 text py-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+             <a href="#"> <button class="btn btn-change" type="submit">CONTACT US</button></a>
+            </div>
+          </div>
+        </div>
+        </div>
+                   <!-- header part start -->
+                 <!-- about us   start-->
+                 <section>
+      <div class="aboutus py-5">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-block">
+            <div class="aboutus_img">
+              <img src="img/aboutus_img.png" class="img-fluid "></div>
+          </div>
 
-	<div class="inputbox">
-		<input type="text" name="" required="required">
-		<span>Phone</span>
-	</div>
-
-	<div class="inputbox">
-		<input type="text" name="" required="required">
-		<span>Category</span>
-	</div>
-
-	<div class="inputbox">
-		<input type="text" name="" required="required">
-		<span>City</span>
-	</div>
-
-	<div class="inputbox">
-		<input type="text" name="" required="required">
-		<span>E-mail</span>
-	</div>
-
-	<div class="inputbox">
-		<textarea required="required"></textarea>
-		<span>Message</span>
-	</div>
-	
-		<div class="inputbox">
-		<input type="submit" name="" value="contact us">
-	</div>
-</form>
-</div>
-</div>
-<!--------contact end----------->
-<!--------aboutus start----------->
-<div class="about-contaner">
-	<div class="boxr">
-		<img src="img/about1.jpg" height="300px" width="500px">
-	</div>
-	<div class="boxle">
-		<h1> ABOUT US</h1>
-		<p> Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-accusantium doloremque laudantium, totam rem aperiam</p>
-	<div class="round">
-		<img src="img/about2.jpg"><br>
-		<button>FRIENDLY TEAM</button>
-
-	</div>
-	<div class="round">
-		<img src="img/about3.jpg">
-		<br>
-		<button>INVOLVED</button>
-	</div>
-	<div class="round">
-		<img src="img/about4.jpg">
-		<br>
-		<button>24/7 ASSISTANCE</button>
-	</div>
-	</div>
-</div>
-<!--------aboutus end----------->
-<!-------photogallery start----------->
-<div class="photogallery">
-	<h1>OUR GALLERY</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi<br>
-dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer<br>
-citation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<main >
-	<div class="img"><img src="img/gallery1.jpg"height="200" width="300"> </div>
-	<div class="img"><img src="img/gallery2.jpg"height="200" width="300"> </div>
-	<div class="img"><img src="img/gallery3.jpg"height="200" width="300"> </div>
-	<div class="img"><img src="img/gallery4.jpg"height="200" width="300"> </div>
-</main>
-<!--------photogallery end----------->
-<!--------top_footer starts----------->
-<div class="top_footer">
-	<div id="break">
-	<div class="row1">
-		<h5><a href="#">CONTENT</a></h5>
-		<h3><a href="#">Lorem ipsum</a></h3>
-		<h3><a href="#">Dolor sit</a></h3><br>
-	</div>
-
-	<div class="row1">
-		<h5><a href="#">INFORMATION</a></h5>
-		<h3><a href="#">Lorem ipsum</a></h3>
-		<h3><a href="#">Onsectetur adipisicing</a></h3>
-		<h3><a href="#">Tempor incidi</a></h3><br>
-	</div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-block text-white my-auto ">
+            <h1 class="aboutus_text1 pb-2">About Us</h1><hr>
+            <p class=" text-break aboutus_text2  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+          </div>
+        </div>
+      </div>
+      </div>
+                 
+    <div class="aboutus_part_2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-block ">
+            <div class="aboutus_part2 ">
+              <div class="background_part img-fluid">
+              <div class="texttt text-white ">
+                <h1 class="w-50">Our Food Quality<hr></h1>
+              <p class="text-break w-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p></div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-	<div id="break1">
-	<div class="row1">
-		<h5><a href="#">LEGAL</a></h5>
-		<h3><a href="#">Adipisicing elit</a></h3>
-		<h3><a href="#">Sed do eiusmod</a></h3><br>
-	</div>
+    </div>
+    </section>
 
-	<div class="row1">
-		<h5><a href="#">HELP</a></h5>
-		<h3><a href="#">Lorem ipsum</a></h3>
-		<h3><a href="#">Onsectetur adipisicing </a></h3><br>
-	</div>
-</div>
-	<div class="break3">
-	<div class="row1">
-		<h3><div id="changesize">
-			<i class='fas fa-phone' style='font-size:11.52pt; color:#985336;'></i>
-			<a href="#">3-6000-0000
--6000-000-0000</a><br>
-		<i class='fas fa-map-marker-alt' style='font-size:11.52pt; color:#985336;'></i><a href="#" >67700 Dagenham St
-England, GB</a></div></h3>
-	</div>
-</div>
-</div>
-<!--------top_footer end----------->
-<!--------footer start----------->
-<div class="footer">
-	
-	<div class="copy"> Copyright © 2019 . Your companyname  All rights reserved</div>
-	
-<div class="iconesss">
-<a href="#"><i class='fab fa-google' style='font-size:15px; color:white;'></i></a>
-<a href="#"><i class='fab fa-twitter' style='font-size:15px; color:white;'></i></a>
-<a href="#"><i class='fab fa-instagram' style='font-size:15px; color:white;'></i></a>
-<a href="#"><i class='fab fa-facebook-f' style='font-size:15px; color:white;'></i></a>
-</div>
-</div>
-</div>
-<!--------footer end----------->
-	<script src="script.js" ></script>
-	<script src="scripts2.js" ></script>
 
-</body>
-</html>
+                  <!-- about us   end-->
+                  <!--        our gallery start -->
+        
+   <div class="our_gallery pt-5">
+     <h1 class="text-white pt-3 text-center">Our Food Gallery  </h1> <hr width="50%"  class="mx-auto text-white">
+     <div class="container">
+       <div class="row pt-3">
+         <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
+            <img src="img/gallery_img_1.png" class="img-fluid" alt="...">
+         </div>
+
+         <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
+          <img src="img/gallery_img_2.png" class="img-fluid" alt="...">
+       </div>
+
+       <div class="col-lg-4 col-md-4 col-sm-4 col-6 img_set d-block mx-auto">
+        <img src="img/gallery_img_3.png" class="img-fluid" alt="...">
+     </div>
+       </div>
+
+
+       <div class="row py-3">
+        <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
+           <img src="img/gallery_img_4.png" class="img-fluid" alt="...">
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
+         <img src="img/gallery_img_5.png" class="img-fluid" alt="...">
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block img_set mx-auto pb-5">
+       <img src="img/gallery_img_66.png" class="img-fluid" alt="...">
+    </div>
+  </div>
+     </div>
+   </div>
+                      <!-- our gallery end -->
+      <div class="div_part">
+        <div class="div_part_bg">
+          <div class="cardmodify">
+          <div class="card card1 p-3 mx-auto text-center text-white " style="max-width: 30rem ;height: auto";>
+            <h1 class=" pt-3">Enjoy Our Food</h1> <hr width="75% " class="text-wthite mx-auto">
+            <p class="text-break">Lorem ipsum dolor sit amet, consec<br>tetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore<br> magna aliqua. Quis ipsum suspendisse<br> ultrices gravida. Risus commodo<br> viverra maecenas accumsan lacus vel<br> facilisis. </p>
+          </div>
+          </div>
+        </div>
+      </div>
+          <!-- our menu start -->
+          <div class="our_menu">
+            <h1 class="text-center  text-white pt-3">Our Menu</h1> <hr class="w-50 text-white mx-auto">
+          
+          <!-- slider start -->
+          <div class="slider_1">
+            <div class="container">
+              
+
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner mx-auto">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div class="card mx-auto" style="width:auto; height: auto;">
+                          <img src="img/gallery_img_1.png" class="card-img-top img-fluid"  alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="img/gallery_img_2.png" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="img/gallery_img_3.png" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div class="card mx-auto" style="width:auto; height: auto;">
+                          <img src="img/gallery_img_4.png" class="card-img-top img-fluid"  alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="img/gallery_img_5.png" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="img/gallery_img_66.png" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="carousel-item">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                      <div class="col">
+                        <div class="card mx-auto" style="width:auto; height: auto;">
+                          <img src="img/menu_img_1.png" class="card-img-top img-fluid"  alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="img/menu_img_2.png" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card h-100">
+                          <img src="img/menu_img_3.png" class="card-img-top img-fluid" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
+                            <h3>Price: $12.00</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+
+            </div>
+          </div>
+          </div>
+          <!-- slider end -->
+          <!-- our menu end -->
+          <!--                   meal sec start -->
+          <div class="meal text-white">
+            <div class="meal_back">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-start py-3">
+                    <img src="img/enjoy_your_meal.png" class="img-fluid">
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-auto">
+
+                    <h1>Enjoy Best Meal</h1> <hr style="width: 80%;" class="">
+                    <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore<br> magna</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--                   meal sec end -->
+          <footer class=" py-3">
+            <div class="footer_logo text-center">
+              <img src="img/footer_logo.png" class="img-fluid" style="max-width: 250px;">
+            </div>
+            <div class="footer_link d-flex justify-content-center mx-auto text-center">
+              <ul class="d-flex text-white text-center">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">AboutUs</a> </li>
+                <li><a href="#">Services</a> </li>
+                <li><a href="#">Foods</a> </li>
+                <li><a href="#">COntact</a> </li>
+                <li><a href="#">Location</a> </li>
+              </ul>
+            </div>
+            <div class="footer_icon text-center">
+              <a href="#"><img src="img/icon_facebook_1y.png" class="img-fluid"></a>
+              <a href="#"><img src="img/icon_instra.png" class="img-fluid"></a>
+              <a href="#"><img src="img/icon_twitter.png" class="img-fluid"></a>
+              <a href="#"><img src="img/icon_last.png" class="img-fluid"></a>
+          
+      </div>
+      <p class="text-white mx-auto text-center pt-3">psd to html by Sudhansu Gupta</p>
+          </footer>
+    <script src="js/bootstrap.min.js"></script>
+  </body>   
