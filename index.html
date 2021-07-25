@@ -4,349 +4,1390 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- bootstrap4 -->
+    <link rel="stylesheet" href="
+    https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+
+    <!-- owlcarasol css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- internal_css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google_front -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+integrity=
+"sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Internal Recruiter</title>
+    <!-- bootstrap js -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        	<script src=
+            "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+                </script>
+                	<script src=
+                    "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+                        </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>                 
+                   	<style>
+                        button:focus {
+                            outline-color: white;
+                            
+                        }
+                    </style>     
   </head>
-  <title>resturent</title>
   <body>
-    <!-- nav ber and logo start -->
-    <nav class="navbar navbar-expand-lg navbar-light colorset_nav">
-      <div class="container-fluid">
-        <a class="navbar-brand " href="#"><img src="img/logo.png" class=" img-fluid logoset1 " style= "max-width: 100%; height: auto;" alt="..."></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto text-center mb-lg-0">
-            <li class="nav-item ">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#"> ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">MENUS</a>
-            </li>
-          
-            <a class="navbar-brand px-lg-5" href="#"><img src="img/logo.png" class=" img-fluid logoset" style= "max-width: 100%; height: auto;" alt="..."> </a>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">GALLERY</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                OFFERS
-              </a>
-              <ul class="dropdown-menu colorset_nav" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-           </ul>
-         </div>
-      </div>
-    </nav>
-  
-    
-  	<!-- nav ber and logo end -->
-    <!-- header part start -->
-    <header>
-        <div class="head_back">
-          <img src="img/header_back.png " class="img-fluid  ">
+      <!-- top_head -->
+    <section> 
+        <div class="top_head text-center text-white">
+        <p class="my-auto">Internal Recruiter Offer To Go Here</p>
         </div>
-
-          </header>
-
-          
-          <div class="container-fluid bg-danger ">
-          <div class="row head_adjust d-flex py-5">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6 d-block text-center ">
-              <img src="img/head_part.png" class="img-fluid">
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-6 d-block  text-break text-white ">
-             <h1 class="text-color-change py-2">Contact Us For Best Breakfasr</h1>
-             <p class="text-color-change1 .fs-6 text py-2 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-             <a href="#"> <button class="btn btn-change" type="submit">CONTACT US</button></a>
-            </div>
-          </div>
-        </div>
-        </div>
-                   <!-- header part start -->
-                 <!-- about us   start-->
-                 <section>
-      <div class="aboutus py-5">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-block">
-            <div class="aboutus_img">
-              <img src="img/aboutus_img.png" class="img-fluid "></div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-block text-white my-auto ">
-            <h1 class="aboutus_text1 pb-2">About Us</h1><hr>
-            <p class=" text-break aboutus_text2  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
-          </div>
-        </div>
-      </div>
-      </div>
-                 
-    <div class="aboutus_part_2">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-block ">
-            <div class="aboutus_part2 ">
-              <div class="background_part img-fluid">
-              <div class="texttt text-white ">
-                <h1 class="w-50">Our Food Quality<hr></h1>
-              <p class="text-break w-25">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p></div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
     </section>
+     <!-- 2nd top_head -->
+     <section>
+         <div class="sce_head">
+         <div class="container">
+             <div class="row ">
+                 <div class="col-lg-6 col-md-8 col-sm-8 col-8">
+                    <div class="dropdown">
+                        <button class="btn   d-flex" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <p class="Recruitment text-dark my-auto">Recruitment Downloads FREE <img src="img/arrow_down.png" class="img-fluid"></p>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </div>
 
+                 </div>
+                 <div class="col-lg-6 col-md-4 col-sm-4 col-4 d-flex justify-content-end">
+                   <div class="icon_part email_mobo my-auto"><a href="#"><img src="img/email_icon.png" class=""></a></div>
+                    <p class="email ps-1 my-auto"><a href="#">contactmy@internalrecruiter.co.uk</a></p>
+                    <div class="right_arrow my-auto ps-1 pe-3"><img src="img/CaretRight.png" class=""></div>
 
-                  <!-- about us   end-->
-                  <!--        our gallery start -->
-        
-   <div class="our_gallery pt-5">
-     <h1 class="text-white pt-3 text-center">Our Food Gallery  </h1> <hr width="50%"  class="mx-auto text-white">
-     <div class="container">
-       <div class="row pt-3">
-         <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
-            <img src="img/gallery_img_1.png" class="img-fluid" alt="...">
+                    <div class="icon_part ps-2 my-auto"><a href="#"><img src="img/UserCircle.png" class=""></a></div>
+                    <p class="email ps-1 my-auto"><a href="#"> Sing in </a></p>
+                    <div class="right_arrow my-auto pe-2"><a href="#"><img src="img/CaretRight.png" class=" ps-1 pe-3"> </a></div>
+
+                    <p class="email ps-1 my-auto"><a href="#"> cart </a> </p>
+                    <div class="card_icon ps-2 my-auto"><a href="#"><img src="img/ShoppingCartSimple.png" class=""></a></div>
+
+                 </div>
+             </div>
          </div>
-
-         <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
-          <img src="img/gallery_img_2.png" class="img-fluid" alt="...">
-       </div>
-
-       <div class="col-lg-4 col-md-4 col-sm-4 col-6 img_set d-block mx-auto">
-        <img src="img/gallery_img_3.png" class="img-fluid" alt="...">
-     </div>
-       </div>
-
-
-       <div class="row py-3">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
-           <img src="img/gallery_img_4.png" class="img-fluid" alt="...">
         </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block mx-auto">
-         <img src="img/gallery_img_5.png" class="img-fluid" alt="...">
-      </div>
-
-      <div class="col-lg-4 col-md-4 col-sm-4 col-6 d-block img_set mx-auto pb-5">
-       <img src="img/gallery_img_66.png" class="img-fluid" alt="...">
-    </div>
-  </div>
-     </div>
-   </div>
-                      <!-- our gallery end -->
-      <div class="div_part">
-        <div class="div_part_bg">
-          <div class="cardmodify">
-          <div class="card card1 p-3 mx-auto text-center text-white " style="max-width: 30rem ;height: auto";>
-            <h1 class=" pt-3">Enjoy Our Food</h1> <hr width="75% " class="text-wthite mx-auto">
-            <p class="text-break">Lorem ipsum dolor sit amet, consec<br>tetur adipiscing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore<br> magna aliqua. Quis ipsum suspendisse<br> ultrices gravida. Risus commodo<br> viverra maecenas accumsan lacus vel<br> facilisis. </p>
-          </div>
-          </div>
-        </div>
-      </div>
-          <!-- our menu start -->
-          <div class="our_menu">
-            <h1 class="text-center  text-white pt-3">Our Menu</h1> <hr class="w-50 text-white mx-auto">
-          
-          <!-- slider start -->
-          <div class="slider_1">
+     </section>
+     <header>
+         <!-- nav_ber start -->
+         
+         <nav class="navbar navbar-expand-lg nav_back_color">
             <div class="container">
-              
-
-              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner mx-auto">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                      <div class="col">
-                        <div class="card mx-auto" style="width:auto; height: auto;">
-                          <img src="img/gallery_img_1.png" class="card-img-top img-fluid"  alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="img/gallery_img_2.png" class="card-img-top img-fluid" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="img/gallery_img_3.png" class="card-img-top img-fluid" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                      <div class="col">
-                        <div class="card mx-auto" style="width:auto; height: auto;">
-                          <img src="img/gallery_img_4.png" class="card-img-top img-fluid"  alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="img/gallery_img_5.png" class="card-img-top img-fluid" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="img/gallery_img_66.png" class="card-img-top img-fluid" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  
-                  <div class="carousel-item">
-                    <div class="row row-cols-1 row-cols-md-3 g-4">
-                      <div class="col">
-                        <div class="card mx-auto" style="width:auto; height: auto;">
-                          <img src="img/menu_img_1.png" class="card-img-top img-fluid"  alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="img/menu_img_2.png" class="card-img-top img-fluid" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="col">
-                        <div class="card h-100">
-                          <img src="img/menu_img_3.png" class="card-img-top img-fluid" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">ITALIAN SOURCE MUSHROOM</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse.</p>
-                            <h3>Price: $12.00</h3>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                  <span class="carousel-control-next-icon " aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-
-            </div>
-          </div>
-          </div>
-          <!-- slider end -->
-          <!-- our menu end -->
-          <!--                   meal sec start -->
-          <div class="meal text-white">
-            <div class="meal_back">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-start py-3">
-                    <img src="img/enjoy_your_meal.png" class="img-fluid">
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-6 col-6 my-auto">
-
-                    <h1>Enjoy Best Meal</h1> <hr style="width: 80%;" class="">
-                    <p>Lorem ipsum dolor sit amet, consectetur<br> adipiscing elit, sed do eiusmod<br> tempor incididunt ut labore et dolore<br> magna</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--                   meal sec end -->
-          <footer class=" py-3">
-            <div class="footer_logo text-center">
-              <img src="img/footer_logo.png" class="img-fluid" style="max-width: 250px;">
-            </div>
-            <div class="footer_link d-flex justify-content-center mx-auto text-center">
-              <ul class="d-flex text-white text-center">
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">AboutUs</a> </li>
-                <li><a href="#">Services</a> </li>
-                <li><a href="#">Foods</a> </li>
-                <li><a href="#">COntact</a> </li>
-                <li><a href="#">Location</a> </li>
-              </ul>
-            </div>
-            <div class="footer_icon text-center">
-              <a href="#"><img src="img/icon_facebook_1y.png" class="img-fluid"></a>
-              <a href="#"><img src="img/icon_instra.png" class="img-fluid"></a>
-              <a href="#"><img src="img/icon_twitter.png" class="img-fluid"></a>
-              <a href="#"><img src="img/icon_last.png" class="img-fluid"></a>
-          
+              <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid">
+<!-- logo_slider -->
+<!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner position-relative logo_addjjj">
+      <div class="carousel-item active">
+        <img src="img/logo.png" class="d-block w-50 img-fluid" alt="..." style="height: 50px !important; width: 130px !important;">
       </div>
-      <p class="text-white mx-auto text-center pt-3">psd to html by Sudhansu Gupta</p>
-          </footer>
-    <script src="js/bootstrap.min.js"></script>
-  </body>   
+      <div class="carousel-item">
+        <img src="img/logo.png" class="d-block w-50 img-fluid" alt="..."style="height: 50px !important; width: 130px !important;">
+      </div>
+      <div class="carousel-item">
+        <img src="img/logo.png" class="d-block w-50 img-fluid" alt="..."style="height: 50px !important; width: 130px !important;">
+      </div>
+    </div>
+  </div> -->
+</a>
+
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-white">menu</span>
+                <span> <img src="img/List.png"></span> 
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Advertising
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Applicant Tracking
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Assessments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Onboarding
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Training
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        1 to 1 Help
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
+
+          <!-- header_back -->
+          <div class="container text_part">
+          <div class="row">
+              <!-- text_slider -->
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12 justify-content-center text-white">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- part_1 -->
+                      <div class="carousel-item active">
+                        <h1>Helping Companies<br> Do Their Recruitment</h1>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>  
+                         <a href="#"><button> Shop Now <img src="img/CaretRightwhite.png" class="img-fluid"> </button></a> 
+                         <div class="flex_div d-flex py-3">
+                             <p class="my-auto pe-3">Excellent </p>
+                             <img src="img/Trustpilot ratings 5star RGB.png" class="img-fluid all_star pe-3">
+                             <img src="img/Vector.png" class="img-fluid one_star">
+                             <P  class="my-auto pe-3">Trustpilot</P>
+                         </div>
+                         <p class="text_s"><u> Experiance? Leave us a review</u><img src="img/CaretRightwhite.png" class="img-fluid"></p>
+                      </div>
+                      <!-- part-2 -->
+                      <div class="carousel-item">
+                        <h1>Helping Companies<br> Do Their Recruitment</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>  
+                        <a href="#"><button> Shop Now <img src="img/CaretRightwhite.png" class="img-fluid"> </button></a> 
+                        <div class="flex_div d-flex py-3">
+                            <p class="my-auto pe-3">Excellent </p>
+                            <img src="img/Trustpilot ratings 5star RGB.png" class="img-fluid all_star pe-3">
+                            <img src="img/Vector.png" class="img-fluid one_star">
+                            <P  class="my-auto pe-3">Trustpilot</P>
+                        </div>
+                        <p class="text_s"><u> Experiance? Leave us a review</u><img src="img/CaretRightwhite.png" class="img-fluid"></p>
+                      </div>
+                      <!-- part-3 -->
+                      <div class="carousel-item">
+                        <h1>Helping Companies<br> Do Their Recruitment</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>  
+                        <a href="#"><button> Shop Now <img src="img/CaretRightwhite.png" class="img-fluid"> </button></a> 
+                        <div class="flex_div d-flex py-3">
+                            <p class="my-auto pe-3">Excellent </p>
+                            <img src="img/Trustpilot ratings 5star RGB.png" class="img-fluid all_star pe-3">
+                            <img src="img/Vector.png" class="img-fluid one_star">
+                            <P  class="my-auto pe-3">Trustpilot</P>
+                        </div>
+                        <p class="text_s"><u> Experiance? Leave us a review</u><img src="img/CaretRightwhite.png" class="img-fluid"></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-indicators hidden_for_tab">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div> 
+
+              </div>
+
+              <div class="col-lg-6 col-md-6 col-sm-12 col-12 mx-auto justify-content-center mx-auto d-flex text-white mobile_ve1">
+                  <div class="back_img justify-content-center">
+                  <div class="person_img">
+                  <img src="img/Rectangle 5.png" class="img-fluid" >
+                </div>
+              </div>
+              </div>
+
+          </div>
+        </div>
+
+     </header>
+
+     <!-- product start -->
+ <section>
+     <div class="product_sec pb-5">
+         <div class="box_saddow mx-auto">
+        <div class="container box_product justify-content-center text-center mx-auto ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col boxxx_top">
+                  <div class="card h-100 ">
+                    <h5 class="card-title text-center py-3" style="background-color: #C3E6EA;">Most Recent </h5>
+                    <h1>Product Name</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <img src="img/Rectangle 43.png" class="img-fluid px-5" alt="...">
+                    <div class="card-body">
+                     
+                      <p class="card-text" style="font-size: 16px !important;   font-family: 'Mulish', sans-serif !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                    </div>
+                    <div class="">
+                     <a href="#"> <button>Shop This Product <img src="img/CaretRightwhite.png" class="img-fluid"><img src="img/CaretRightgreen.png" class="img-fluid aro"></button></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 ">
+                      <h5 class="card-title text-center py-3" style="background-color:#FFE48F;">Most Popular </h5>
+                      <h1>Product Name</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                      <img src="img/Rectangle 44.png" class="img-fluid px-5" alt="...">
+                      <div class="card-body">
+                       
+                        <p class="card-text" style="font-size: 16px !important;   font-family: 'Mulish', sans-serif !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                      </div>
+                      <div class="">
+                       <a href="#"> <button>Shop This Product <img src="img/CaretRightwhite.png" class="img-fluid"><img src="img/CaretRightgreen.png" class="img-fluid aro"></button></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100 ">
+                      <h5 class="card-title text-center py-3" style="background-color: #FFA39E;">Most Comprehensive </h5>
+                      <h1>Product Name</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                      <img src="img/Rectangle 45.png" class="img-fluid px-5" alt="...">
+                      <div class="card-body">
+                      
+                        <p class="card-text" style="font-size: 16px !important;   font-family: 'Mulish', sans-serif !important;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                      </div>
+                      <div class="">
+                       <a href="#"> <button>Shop This Product <img src="img/CaretRightwhite.png" class="img-fluid"><img src="img/CaretRightgreen.png" class="img-fluid aro"></button></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+
+        </div>
+        </div>
+     </div>
+     <!-- mobile veiw -->
+     <div class="product_sec_mobo py-5 ">
+         <div class="container justify-content-center text-center d-flex">
+             <!-- <div class="row">
+                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 mx-auto"> -->
+            
+     <div class="owl-carousel owl-theme">
+        <div class="item ">
+            <!-- part_1 -->
+            <!-- <div class="row row-cols-1 row-cols-md-3 g-4"> -->
+                <!-- <div class="col"> -->
+                  <div class="card h-100">
+                    <h5 class="card-title text-center py-3" style="background-color: #C3E6EA;">Most Recent </h5>
+                    <h1 class="mx-auto">Product Name</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <img src="img/Rectangle 43.png" class="img-fluid px-5" alt="...">
+                    <div class="card-body">
+                      
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                    </div>
+                    <div class="arrow_img_product d-flex mx-auto">
+                     <a href="#"> <button class="d-flex">
+                         <div class="text_b  " style="font-size: 16px">Shop This Product</div>
+                         <div class="icon_part2 d-flex">
+                        <img src="img/CaretRightwhite.png" class="img-fluid">
+                        <img src="img/CaretRightgreen.png" class="img-fluid aro1">
+                        </div>
+                    </button></a>
+                    </div>
+                  </div>
+                <!-- </div> -->
+                <!-- </div> -->
+        </div>
+
+        <!-- part-2 -->
+        <div class="item">
+            <div class="card h-100">
+                <h5 class="card-title text-center py-3" style="background-color: #FFE48F;">Most Comprehensive </h5>
+                <h1 class="mx-auto">Product Name</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <img src="img/Rectangle 43.png" class="img-fluid px-5" alt="...">
+                <div class="card-body">
+                  
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                </div>
+                <div class="arrow_img_product d-flex mx-auto">
+                 <a href="#"> <button class="d-flex">
+                     <div class="text_b"style="font-size: 16px">Shop This Product</div>
+                     <div class="icon_part2 d-flex">
+                    <img src="img/CaretRightwhite.png" class="img-fluid">
+                    <img src="img/CaretRightgreen.png" class="img-fluid aro1">
+                    </div>
+                </button></a>
+                </div>
+              </div>
+        </div>
+        <div class="item">
+            <div class="card h-100">
+                <h5 class="card-title text-center py-3" style="background-color: #FFA39E;;">Most Comprehensive </h5>
+                <h1 class="mx-auto">Product Name</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <img src="img/Rectangle 43.png" class="img-fluid px-5" alt="...">
+                <div class="card-body">
+                  
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+                </div>
+                <div class="arrow_img_product d-flex mx-auto">
+                 <a href="#"> <button class="d-flex">
+                     <div class="text_b"style="font-size: 16px">Shop This Product</div>
+                     <div class="icon_part2 d-flex">
+                    <img src="img/CaretRightwhite.png" class="img-fluid">
+                    <img src="img/CaretRightgreen.png" class="img-fluid aro1">
+                    </div>
+                </button></a>
+                </div>
+              </div>
+        </div>
+    
+    </div>
+    </div>
+    </div>
+    
+ </section>    
+    <!-- shop all product -->
+    <div class="shop_all_product0" style="background-color: white;">
+    <div class="container shop_all_product1">
+        <div class="row">
+            <div class="col-lg-7 col-md-10 col-sm-12 col-12 justify-content-center mx-auto text-center">
+        <h1 class="text-center">We’re responsible for identifying, sourcing and attracting the very best talent.</h1>
+        <p class="pb-3">We identify current and future hiring needs, advertise job openings and are essential for making informed decisions about who to hire. Internalrecruiter.co.uk is your internal recruiter for your business, we help you with all of the internal recruitment functions.</p>
+    </div>
+    </div>
+    </div>
+    <!-- all product desktop veiw -->
+    <div class="all_pro_desk d-flex text-center">
+        <div class="container adjust_all_P d-flex justify-content-center ">
+            <div class="fststbox">
+            <div class="img_box1">
+                <img src="img/Image.png" class="img-fluid deco_img">
+                </div>
+                <p>Advertise</p>
+            </div>
+
+            <div class="fststbox">
+                <div class="img_box1">
+                    <img src="img/Image.png" class="img-fluid deco_img">
+                    </div>
+
+                    <p>Source <br>
+                        Candidates</p>
+                </div>
+
+                <div class="fststbox">
+                    <div class="img_box1">
+                        <img src="img/Image.png" class="img-fluid deco_img">
+                        </div>
+                        <p>Manage<br>
+                            Applicants</p>
+                    </div>
+
+                        <div class="fststbox">
+                            <div class="img_box1">
+                                <img src="img/Image.png" class="img-fluid deco_img">
+                                </div>
+                                <p>Screen CV’s</p>
+                            </div>
+                            <div class="fststbox">
+                                <div class="img_box1">
+                                    <img src="img/Image.png" class="img-fluid deco_img">
+                                    </div>
+                                    <p>Assess &<br> Evaluate <br>
+                                        Applicants</p>
+                                </div>
+                                <div class="fststbox">
+                                    <div class="img_box1">
+                                        <img src="img/Image.png" class="img-fluid deco_img">
+                                        </div>
+                                        <p>Onboarding</p>
+                                    </div>  
+                                    
+                                    <div class="fststbox">
+                                        <div class="img_box1">
+                                            <img src="img/Image.png" class="img-fluid deco_img">
+                                            </div>
+                                            <p>Training</p>
+                                        </div> 
+                                        
+        </div>
+    </div>
+
+    <div class="all_proud d-flex mx-auto justify-content-center my-auto">
+        <a href="#"> <button class="d-flex my-auto">
+            <div class="text_button " style="font-size: 16px;"> Shop This Product</div>
+            <div class="icon_part2 d-flex">
+           <img src="img/CaretRightwhite.png" class="img-fluid pt-1 ps-3 ">
+           <img src="img/CaretRightgreen.png" class="img-fluid  pt-1 ps-2 ">
+           </div>
+       </button></a>
+       </div>
+    </div>
+   <!-- all product mobile veiw -->
+   <!-- <div class="container all_product_mobo_view" style="background-color: white;">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+            <div class="container adjust_all_P d-flex justify-content-between text-center mt-5">
+                <div class="fststbox mx-auto">
+                    <div class="img_box2 mx-auto">
+                        <img src="img/Image.png" class="img-fluid deco_img">
+                        </div>
+                        <p class="pt-2 mx-auto">Advertise</p>
+                    </div>
+        
+                    <div class="fststbox">
+                        <div class="img_box2">
+                            <img src="img/Image.png" class="img-fluid deco_img">
+                            </div>
+                            <p>Source <br>
+                                Candidates</p>
+                        </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container adjust_all_P d-flex justify-content-between text-center mt-5">
+                <div class="fststbox mx-auto">
+                    <div class="img_box2">
+                        <img src="img/Image.png" class="img-fluid deco_img">
+                        </div>
+                        <p class="">Manage<br>
+                            Applicants</p>
+                    </div>
+        
+                    <div class="fststbox">
+                        <div class="img_box2">
+                            <img src="img/Image.png" class="img-fluid deco_img">
+                            </div>
+                            <p class="pt-2">Screen CV’s</p>
+                        </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container adjust_all_P d-flex justify-content-between text-center mt-5">
+                <div class="fststbox mx-auto d-block">
+                    <div class="img_box2">
+                        <img src="img/Image.png" class=" deco_img">
+                        </div>
+                        <p class="">Assess & Evaluate<br>
+                            Applicants</p>
+                    </div>
+        
+                    <div class="fststbox">
+                        <div class="img_box2">
+                            <img src="img/Image.png" class="img-fluid deco_img">
+                            </div>
+                            <p class="pt-2">Onboarding</p>
+                        </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container adjust_all_P d-flex justify-content-between text-center mt-5">
+                <div class="fststbox mx-auto">
+                    <div class="img_box2">
+                        <img src="img/Image.png" class="img-fluid deco_img">
+                        </div>
+                        <p class="pt-2">Training</p>
+                    </div>
+        
+                    <div class="fststbox">
+                        <div class="img_box2">
+                            <img src="img/Image.png" class="img-fluid deco_img">
+                            </div>
+                            <p class="pt-2">Onboarding</p>
+                        </div>
+            </div>
+        </div>
+    
+        
+    </div>
+    <div class="all_proud_mobo  d-flex mx-auto justify-content-center my-auto">
+        <a href="#"> <button class="d-flex my-auto">
+            <div class="text_button" style="font-size: 16px;">Shop This Product</div>
+            <div class="icon_part2 d-flex">
+           <img src="img/CaretRightwhite.png" class="img-fluid pt-1">
+           <img src="img/CaretRightgreen.png" class="img-fluid aro1 pt-1 ">
+           </div>
+       </button></a>
+       </div>
+</div> -->
+
+<div class="container sponcer_mobo pb-5">
+    <div class="owl-carousel owl-theme">
+        <div class="item d-flex justify-content-between">
+            <div class="product_icon_mob mx-auto">
+            <div class="img-box">
+                <img src="img/Image.png" class="img-fluid mx-auto">
+            </div>
+                <div class="para_part mx-auto text-center pt-3">
+                    <p>Advertise</p>
+                </div>
+            </div>
+           
+            <div class="product_icon_mob mx-auto">
+                <div class="img-box">
+                    <img src="img/Image.png" class="img-fluid mx-auto">
+                </div>
+                    <div class="para_part mx-auto text-center">
+                        <p>Source<br>
+                            Candidates</p>
+                    </div>
+                </div>
+                
+        </div>
+      
+        <div class="item d-flex justify-content-between">
+            <div class="product_icon_mob mx-auto">
+            <div class="img-box">
+                <img src="img/Image.png" class="img-fluid mx-auto">
+            </div>
+                <div class="para_part mx-auto text-center ">
+                    <p>Manage<br>
+                        Applicants</p>
+                </div>
+            </div>
+           
+            <div class="product_icon_mob mx-auto">
+                <div class="img-box">
+                    <img src="img/Image.png" class="img-fluid mx-auto">
+                </div>
+                    <div class="para_part mx-auto text-center pt-3">
+                        <p>Screen CV’s</p>
+                    </div>
+                </div>
+                
+        </div>
+
+        <div class="item d-flex justify-content-between">
+            <div class="product_icon_mob mx-auto">
+            <div class="img-box">
+                <img src="img/Image.png" class="img-fluid mx-auto">
+            </div>
+                <div class="para_part mx-auto text-center ">
+                    <p>Assess &<br> Evaluate<br>
+                        Applicants</p>
+                </div>
+            </div>
+           
+            <div class="product_icon_mob mx-auto">
+                <div class="img-box">
+                    <img src="img/Image.png" class="img-fluid mx-auto">
+                </div>
+                    <div class="para_part mx-auto text-center pt-3">
+                        <p>Onboarding</p>
+                    </div>
+                </div>
+                
+        </div>
+
+        <div class="item d-flex justify-content-between">
+            <div class="product_icon_mob mx-auto">
+            <div class="img-box">
+                <img src="img/Image.png" class="img-fluid mx-auto">
+            </div>
+                <div class="para_part mx-auto text-center pt-3">
+                    <p>Training</p>
+                </div>
+            </div>
+           
+            <div class="product_icon_mob mx-auto">
+                <div class="img-box">
+                    <img src="img/Image.png" class="img-fluid mx-auto">
+                </div>
+                    <div class="para_part mx-auto text-center">
+                        <p>Source<br>
+                            Candidates</p>
+                    </div>
+                </div>
+                
+        </div>
+
+    
+        </div>
+    </div>
+
+<!-- why should use -->
+<section style="background-color: #F6F6F6;">
+    <div class="why_should">
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12  justify-content-center mx-auto d-flex">
+                    <div class="inner_text">
+                    <h1 class="">Why should you use <br>
+                        Internal Recruiter?</h1>
+                        <h2>Internalrecruiter.co.uk offers all the products that recruitment companies use to successful fill vacancies.</h2>
+                        <p>It doesn’t matter what size of business, what type of business or where your business is located, use internalrecruiter.co.uk to help fill your next role.</p>
+                        <p>Our products cover all aspects of the recruitment process, from advertising to assessments, qualifications to right to work checks, personal profile reports to applicant tracking systems, Internalrecruiter.co.uk has all the tools needed for your business to do your own recruitment. </p>
+                        <div class="why_use_buttn">
+                                <a href="#"> <button>Shop Now <img src="img/CaretRightwhite.png" class="img-fluid"><img src="img/CaretRightgreen.png" class="img-fluid aro"></button></a>
+                        </div>
+
+                        </div>
+                        </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  justify-content-center mx-auto my-auto d-flex mobo_version">
+                        <div class="images1 ps-4">
+                            <img src="img/Frame1.png" class="img-fluid adjust_img_use">
+                        </div>
+                        <div class="images">
+                            <img src="img/Rectangle 34.png" class="img-fluid position-relative">
+                        </div>
+                       
+                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</section>
+<!-- mobo_vew -->
+<div class="why_should_mobo" style="background-color: #F6F6F6 ;">
+    <div class="container d-flex">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12  justify-content-center mx-auto d-flex">
+                <div class="inner_text">
+                <h1 class="">Why should you use <br>
+                    Internal Recruiter?</h1>
+                  
+                    <p>We identify current and future hiring needs, advertise job openings and are essential for making informed </p>
+                    <p>decisions about who to hire. Internalrecruiter.co.uk is your internal recruiter for your business, we help you with all of the internal recruitment functions.</p>
+                    <div class="why_use_buttn">
+                            <a href="#"> <button>Shop Now <img src="img/CaretRightwhite.png" class="img-fluid"><img src="img/CaretRightgreen.png" class="img-fluid aro"></button></a>
+                    </div>
+
+                    </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+<!-- free rec -->
+<section>
+    <div class="free_rec" style="background-color: #FF574E;">
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12  justify-content-center mx-auto d-flex text-white">
+                    <div class="inner_text_use">
+                    <h1 class="">Why not take a look at our FREE  <br>
+                        Recruitment Downloads </h1>
+                        <h2>Gain more indepth knowledge surrounding recuitment via our Free Downloads.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt t labore et dolore magna aliqua. </p>
+                        <div class="free_rec_buttn pb-3">
+                                <a href="#"> <button>Shop Now <img src="img/CaretRightwhite.png" class="img-fluid"><img src="img/CaretRightred.png" class="img-fluid aro"></button></a>
+                        </div>
+
+                        </div>
+                        </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-12  justify-content-end d-flex mobo_version1  mx-auto ">
+                        <div class="images3">
+                            <img src="img/Rectangle 37.png" class=" adjust_img_use1" style="width: 100% !important; height: 100%; background-size: cover;">
+                        </div>
+                       
+                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- sopnser part -->
+<section>
+    <div class="sponcer_top" style="background-color: #061E34;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-10  col-sm-12 col-12 justify-content-center mx-auto mx-auto text-white">
+                    <div class="inner_text3">
+                        <h1 class="">Internal Recruiter has all the tools needed to allow your business to do your own recruiting.</h1>
+                            <h2>See our partners and accrediations</h2>
+                            <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt t labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt t labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                           
+                            </div>
+                            <div class="sponcer_logo_desk d-flex justify-content-center align-content-center">
+                              <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner ">
+                                  <div class="carousel-item active">
+                                      <div class="inner_img d-flex justify-content-between align-content-center text-center">
+                                      <div class="img1">
+                                    <img src="img/image 1.png" class="d-block img-fluid w-100" alt="...">
+                                    </div>
+                                    <div class="img2">
+                                        <img src="img/image 2.png" class="d-block img-fluid  " alt="...">
+                                        </div>
+                                        <div class="img1">
+                                            <img src="img/image 3.png" class="d-block img-fluid" alt="...">
+                                            </div>
+                                            <div class="img2">
+                                                <img src="img/image 4.png" class="d-block img-fluid" alt="...">
+                                                </div>
+                                        </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    
+                                        <div class="inner_img d-flex justify-content-between align-content-center text-center">
+                                        <div class="img1">
+                                      <img src="img/image 1.png" class="d-block img-fluid w-100" alt="...">
+                                      </div>
+                                      <div class="img2">
+                                          <img src="img/image 2.png" class="d-block img-fluid  " alt="...">
+                                          </div>
+                                          <div class="img1">
+                                              <img src="img/image 3.png" class="d-block img-fluid" alt="...">
+                                              </div>
+                                              <div class="img2">
+                                                  <img src="img/image 4.png" class="d-block img-fluid" alt="...">
+                                                  </div>
+                                          </div>
+                                    
+                                  </div>
+                                  <div class="carousel-item">
+                                    
+                                        <div class="inner_img d-flex justify-content-between align-content-center text-center">
+                                        <div class="img1">
+                                      <img src="img/image 1.png" class="d-block img-fluid w-100" alt="...">
+                                      </div>
+                                      <div class="img2">
+                                          <img src="img/image 2.png" class="d-block img-fluid  " alt="...">
+                                          </div>
+                                          <div class="img1">
+                                              <img src="img/image 3.png" class="d-block img-fluid" alt="...">
+                                              </div>
+                                              <div class="img2">
+                                                  <img src="img/image 4.png" class="d-block img-fluid" alt="...">
+                                                  </div>
+                                          </div>
+                                    
+                                  </div>
+                                </div>
+                              </div> -->
+
+                              <div class="owl-carousel owl-theme logo_allingg">
+                                <div class="item">
+                                    <div class="inner_img d-flex justify-content-center align-content-center text-center">
+                                        <div class="img1">
+                                            <img src="img/image 1.png" class="d-block  w-100" alt="...">
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner_img d-flex justify-content-center align-content-center text-center">
+                                        <div class="img1 lodo_spo">
+                                            <img src="img/image 2.png" class="d-block    w-100" alt="..." style="height: 80% !important;">
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner_img d-flex justify-content-center align-content-center text-center">
+                                        <div class="img1">
+                                            <img src="img/image 3.png" class="d-block h-auto pt-1 w-100" alt="...">
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="inner_img d-flex justify-content-center align-content-center text-center">
+                                        <div class="img1">
+                                            <img src="img/image 4.png" class="d-block  w-100" alt="...">
+                                            </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="item"><h4>5</h4></div>
+                                <div class="item"><h4>6</h4></div>
+                                <div class="item"><h4>7</h4></div>
+                                <div class="item"><h4>8</h4></div>
+                                <div class="item"><h4>9</h4></div>
+                                <div class="item"><h4>10</h4></div>
+                                <div class="item"><h4>11</h4></div>
+                                <div class="item"><h4>12</h4></div> -->
+                            </div>
+
+
+
+
+
+
+
+
+                            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- sponser_mobo_view -->
+<section style="background-color: #061E34;">
+
+    <div class="container sponcer_mobo pb-5">
+    <div class="owl-carousel owl-theme">
+        <div class="item d-flex justify-content-between">
+            <div class="sopncer_logo_mob mx-auto">
+            <a href="#"><img src="img/image 1.png" class="img-flude mx-auto"></a>
+            </div>
+            <div class="sopncer_logo_mob mx-auto">
+                <a href="#"><img src="img/image 2.png" class="img-flude mx-auto"></a>
+                </div>
+        </div>
+        <div class="item d-flex justify-content-between">
+            <div class="sopncer_logo_mob mx-auto">
+                <a href="#"><img src="img/image 3.png" class="img-flude mx-auto"></a>
+                </div>
+                <div class="sopncer_logo_mob mx-auto">
+                    <a href="#"><img src="img/image 4.png" class="img-flude mx-auto"></a>
+                    </div>
+        </div>
+    
+        </div>
+    </div>
+</section>
+
+<!-- accordion start -->
+<section style="background-color: white;">
+    <div class="top_part_acc pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-12 col-12  justify-content-center mx-auto d-flex text-center">
+                    <div class="inner_text_use3">
+                    <h1 class="">Want to find out more, see our FAQs below</h1>
+                        <p>Heres a slecetion of the most common questions we get asked</p>
+                        </div>
+                    </div>
+
+                        </div>
+
+                </div>
+            </div>
+        
+</section>
+
+            <!-- accodian_part start -->
+            <div class="part2_acco" style="background-color: white;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-10 col-sm-12 col-12 justify-content-center mx-auto  text-center">
+
+                          <div id="accordion">
+                            <div class="card">
+                                <button class="card-header collapsed card-link border-0  text-start w-100"style="border-bottom: 2px solid #E4E4E4 !important;" style="background-color: white !important;"
+                                        data-toggle="collapse"
+                                        data-target="#collapseOne1">
+                                    <div class="inner_bboxxx justify-content-between d-flex">
+                                     <div1 class="header-title float-left">
+                                       <p>Frequently Asked Question One </p> 
+                                       
+                                       </div1>
+                                    <div class="gvva">
+                                    <i class="fas fa-plus float-right  pt-2"></i>
+                                    </div>
+                                    </div>
+                                </button>
+                                
+                                <div id="collapseOne1" class="collapse"
+                                        data-parent="#accordion">
+                                    <div class="card-body">
+                                        GeeksforGeeks is a Computer Science portal
+                                        for geeks. It contains well written, well
+                                        thought and well explained computer science
+                                        and programming articles, quizzes etc.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <button class="card-header collapsed card-link border-0 text-start"style="border-bottom: 2px solid #E4E4E4 !important;"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo2">
+            
+                                        <div class="inner_bboxxx justify-content-between d-flex">
+                                            <div1 class="header-title float-left">
+                                              <p>Frequently Asked Question One Frequently Asked Question One Frequently Asked Question One </p> 
+                                              
+                                              </div1>
+                                           <div class="gvva">
+                                           <i class="fas fa-plus float-right  pt-2"></i>
+                                           </div>
+                                           </div>
+                                </button>
+                                
+                                <div id="collapseTwo2" class="collapse"
+                                        data-parent="#accordion">
+                                    <div class="card-body">
+                                        GeeksforGeeks is a Computer Science portal
+                                        for geeks. It contains well written, well
+                                        thought and well explained computer science
+                                        and programming articles, quizzes etc.
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="card">
+                                <button class="card-header collapsed card-link border-0 text-start"style="border-bottom: 2px solid #E4E4E4 !important;"
+                                        data-toggle="collapse"
+                                        data-target="#collapseThree3">
+                                        <div class="inner_bboxxx justify-content-between d-flex">
+                                            <div1 class="header-title float-left">
+                                              <p>Frequently Asked Question three  </p> 
+                                              
+                                              </div1>
+                                           <div class="gvva">
+                                           <i class="fas fa-plus float-right  pt-2"></i>
+                                           </div>
+                                           </div>
+            
+                                </button>
+                                <div id="collapseThree3" class="collapse"
+                                        data-parent="#accordion">
+                                    <div class="card-body">
+                                        GeeksforGeeks is a Computer Science portal
+                                        for geeks. It contains well written, well
+                                        thought and well explained computer science
+                                        and programming articles, quizzes etc.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <button class="card-header collapsed card-link border-0 text-start"style="border-bottom: 2px solid #E4E4E4 !important;"
+                                        data-toggle="collapse"
+                                        data-target="#collapseThree4">
+                                        <div class="inner_bboxxx justify-content-between d-flex">
+                                            <div1 class="header-title float-left">
+                                              <p>Frequently Asked Question Four  </p> 
+                                              
+                                              </div1>
+                                           <div class="gvva">
+                                           <i class="fas fa-plus float-right  pt-2"></i>
+                                           </div>
+                                           </div>
+            
+                                </button>
+                                <div id="collapseThree4" class="collapse"
+                                        data-parent="#accordion">
+                                    <div class="card-body">
+                                        GeeksforGeeks is a Computer Science portal
+                                        for geeks. It contains well written, well
+                                        thought and well explained computer science
+                                        and programming articles, quizzes etc.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <button class="card-header collapsed card-link border-0"style="border-bottom: 2px solid #E4E4E4 !important;"
+                                        data-toggle="collapse"
+                                        data-target="#collapsefive">
+            
+                                        <div1 class="header-title float-left">
+                                            <p>Frequently Asked Question Five</p> 
+                                            </div1>
+                                    <i class="fas fa-plus float-right"></i>
+            
+                                </button>
+                                <div id="collapsefive" class="collapse"
+                                        data-parent="#accordion">
+                                    <div class="card-body">
+                                        GeeksforGeeks is a Computer Science portal
+                                        for geeks. It contains well written, well
+                                        thought and well explained computer science
+                                        and programming articles, quizzes etc.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <button class="card-header collapsed card-link last_item border-0" 
+                                        data-toggle="collapse"
+                                        data-target="#collapsesix">
+            
+                                        <div1 class="header-title float-left">
+                                            <p>Frequently Asked Question Six</p> 
+                                            </div1>
+                                    <i class="fas fa-plus float-right"></i>
+            
+                                </button>
+                                <div id="collapsesix" class="collapse"
+                                        data-parent="#accordion">
+                                    <div class="card-body">
+                                        GeeksforGeeks is a Computer Science portal
+                                        for geeks. It contains well written, well
+                                        thought and well explained computer science
+                                        and programming articles, quizzes etc.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                
+
+</div></div></div>
+            </div>
+<!-- banner_part -->
+      <section>
+          <div class="bannder py-5" style="background-color: #FFC100;">
+              <div class="container mx-auto justify-content-center">
+                  <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-12 col-12 mx-auto justify-content-center text-center ">
+                        <div class="inner_text_banner">
+                            <h1>Find out which product is best suited for you.</h1>
+                            <p>Why not browse and compare our range of products to see which is best suited for you and your recruitment process</p>
+                     
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-12 mx-auto justify-content-center my-auto text-end d-flex">
+                            <div class="banner_button d-flex mx-auto justify-content-center">
+                                <a href="#"> <button class="d-flex">
+                                
+                                    <div class="text_b" style="font-size: 16px; font-weight: 700;">
+                                        Shop This Product
+                                    </div>
+                                    <div class="icon_part2 d-flex position-relative">
+                                   <img src="img/CaretRightwhite.png" class="img-fluid ">
+                                   <img src="img/CaretRightgreen.png" class="img-fluid ">
+                                   </div>
+                               </button></a>
+                               </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>   
+      <!-- footer start    -->
+      <footer>
+          <div class="container">
+              <div class="row">
+                <div class="col-lg-12  col-md-12 col-sm-12 justify-content-between align-content-center d-flex mx-auto ">
+                    <div class="fst_col">
+                        <h3>Company</h3>
+                        <p>Address Line 1</p>
+                        <p>Address Line 2</p>
+                        <p>Address Line 3</p>
+                        <br>
+                        <p><a href="#"> contactmy@internalrecruiter.co.uk </a></p>
+                        <p>01744 415 933</p>
+                    </div>
+
+                    <div class="nd_col">
+                        <h3> Our Service </h3>
+                        <p><a href="#"> Advertising </a></p>
+                        <p><a href="#"> Applicant Tracking </a></p>
+                        <p><a href="#"> Assessments </a></p>
+                        <p><a href="#"> Onboarding </a></p>
+                        <p><a href="#"> Training </a></p>
+                        <p><a href="#"> 1 to 1 Help </a></p>
+                        <p><a href="#"> Recruitment Downloads </a></p>
+                    </div>
+
+                    
+                    <div class="nd_col">
+                        <h3>Information</h3>
+                        <p> <a href="#"> About Us </a></p>
+                        <p> <a href="#"> Testimonials </a></p>
+                        <p> <a href="#"> Contact Us </a></p>
+                        <p> <a href="#"> Privacy Policy </a> </p>
+                        <p> <a href="#"> Terms of Business </a></p>
+                
+                    </div>
+
+                    <div class="nd_col">
+                        <h3>Account</h3>
+                        <p> <a href="#"> My Account </a></p>
+                        <p> <a href="#"> Sign In/Sign Up
+                            </a></p>
+                        <p> <a href="#">Create an Account </a></p>
+                    </div>
+
+                    <div class="nd_col">
+                    <div class="flex_div d-flex py-3">
+                        <p class="my-auto pe-3">Excellent </p>
+                        <img src="img/Trustpilot ratings 5star RGB.png" class="img-fluid all_star pe-3">
+                        <img src="img/Vector.png" class="img-fluid one_star">
+                        <P  class="my-auto pe-3">Trustpilot</P>
+                    </div>
+                    <p> <a href="#"><u> Experiance? Leave us a review</u><img src="img/CaretRightwhite.png" class="img-fluid"></a></p>
+
+                        <div class="back_to_top ">
+                           <a href="#top" ><img src="img/ArrowCircleDown.png" class="img-fluid"></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+      </footer>
+      <!-- footer_mobo start -->
+<div class="footer_mobo" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-10 justify-content-center mx-auto d-flex text-white">
+                <div class="icon_footer mx-auto">
+                    
+                        <div class="flex_div d-flex py-3">
+                            <p class="my-auto pe-3">Excellent </p>
+                            <img src="img/Trustpilot ratings 5star RGB.png" class="img-fluid all_star pe-3" style="min-width: 100px;">
+                            <img src="img/Vector.png" class="img-fluid one_star">
+                            <P  class="my-auto pe-3">Trustpilot</P>
+                        </div>
+                        <p> <a href="#"><u> Experiance? Leave us a review</u><img src="img/CaretRightwhite.png" class="img-fluid"></a></p>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<section style="background-color: #061E34;">
+    <div class="container footer_mobo">
+     <div class="row">
+         <div class="col-md-12 justify-content-center mx-auto ">
+
+     
+        <div id="accordion">
+            <div class="card">
+                <button class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseOne">
+
+                    <b class="header-title float-left">
+                        Company
+                    </b>
+                    <i class="fas fa-plus float-right " style="color: white;"></i>
+                </button>
+                
+                <div id="collapseOne" class="collapse"
+                        data-parent="#accordion">
+                    <div class="card-body">
+                        GeeksforGeeks is a Computer Science portal
+                        for geeks. It contains well written, well
+                        thought and well explained computer science
+                        and programming articles, quizzes etc.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <button class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo">
+
+                    <b class="header-title float-left">
+                        Our Services</b>
+                    <i class="fas fa-plus float-right "></i>
+                </button>
+                
+                <div id="collapseTwo" class="collapse"
+                        data-parent="#accordion">
+                    <div class="card-body">
+                        GeeksforGeeks is a Computer Science portal
+                        for geeks. It contains well written, well
+                        thought and well explained computer science
+                        and programming articles, quizzes etc.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <button class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapseThree">
+
+                    <b class="header-title float-left">
+                        Company
+                    </b>
+                    <i class="fas fa-plus float-right "></i>
+
+                </button>
+                <div id="collapseThree" class="collapse"
+                        data-parent="#accordion">
+                    <div class="card-body">
+                        GeeksforGeeks is a Computer Science portal
+                        for geeks. It contains well written, well
+                        thought and well explained computer science
+                        and programming articles, quizzes etc.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <button class="card-header collapsed card-link"
+                        data-toggle="collapse"
+                        data-target="#collapsefour">
+
+                    <b class="header-title float-left">
+                        Our Services
+                    </b>
+                    <i class="fas fa-plus float-right "></i>
+
+                </button>
+                <div id="collapsefour" class="collapse"
+                        data-parent="#accordion">
+                    <div class="card-body">
+                        GeeksforGeeks is a Computer Science portal
+                        for geeks. It contains well written, well
+                        thought and well explained computer science
+                        and programming articles, quizzes etc.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+</div>
+            <!-- lower_footer-start -->
+<section  style=" background-color: #031322;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex align-content-center">
+                <div class="lower-footer text-white">
+                    <p class="my-auto">2021 Internal Recruiter All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- accor part -->
+<script>
+    $('.card-header').click(function() {
+        $(this).find('i').toggleClass('fas fa-plus fas fa-minus');
+    });
+</script>
+
+
+
+
+
+<!-- product_slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $('.owl-carousel').owlCarousel({
+    // center: true,
+    margin:10,
+    items:1,
+    loop:true,
+    margin:10,
+    // nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1.3
+        },
+        400:{
+            items:1.3
+        },
+        768:{
+            items:1.2,
+            autoplay:true,
+autoplayTimeout:3000    
+
+        },
+        800:{
+            items:4,
+            dots:true,
+            autoplay:true,
+autoplayTimeout:3000 
+        }
+    }
+})
+</script>
+
+<!-- mobile_view_allproduct -->
+<!-- <script>
+    $('.xyz').owlCarousel({
+    // center: true,
+    margin:10,
+    items:1,
+    loop:true,
+    margin:10,
+    // nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:2
+        },
+        400:{
+            items:5
+
+        },
+        1000:{
+            items:3,
+            dots:true
+        }
+    }
+})
+</script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+ </body>
+ </html>
